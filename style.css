@@ -1,0 +1,190 @@
+/*----------------------- Partes Gerais----------------------*/
+
+header{
+	background: #FAEBD7;
+	min-height: 200px;
+	top:0;
+	width: 100%;
+	clear: both;
+}
+
+footer{
+	background-color: #FAEBD7;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#container_geral{
+	width: auto;
+	height: auto;
+	margin: auto;
+	position: relative;
+	overflow: hidden;
+}
+
+/*-----------------------------------------------------------*/
+/*---------------------Partes do Cabeçalho-------------------*/
+#logo{
+	margin: center;
+	padding: 20px;
+	float: left;
+}
+
+#menu{
+	margin: 90px;
+	float: right;
+}
+
+
+#menu a{
+	font-size: 20px;
+	color: black;
+	text-decoration: none;
+	text-align: center;
+	text-shadow: 0.5px 0.5px #111111;
+	padding: 0px 50px;
+	padding-top: 100px;
+	padding-bottom:92px;
+}
+#menu a:hover{
+	background-color: black;
+	color: #FAEBD7;
+}
+
+/*-----------------------------------------------------------*/				
+/*---------------Partes do Corpo página Home-----------------*/
+
+#corpo_home h1{
+	color: #FFDEAD;
+	font-family: cursive;
+}
+
+#corpo_home p{
+	color: #FFF8DC;
+	text-align: justify;
+	font-family: arial;
+	padding: 20px 50px;
+	width: 500px;
+}
+
+/*-----------------------------------------------------------*/
+/*---------------Partes do Corpo página Contato--------------*/
+
+#corpo_contato h1{
+	color: #FFDEAD;
+	padding-top: 20px;
+	font-family: cursive;
+}
+
+#corpo_contato a{
+	padding: 10px;
+}
+
+#corpo_contato img{
+	padding: 30px 5px 0px 5px;
+}
+
+#form{
+	padding: 20px;
+}
+
+/*-----------------------------------------------------------*/
+/*----------------Partes do Corpo página Sobre---------------*/
+
+#corpo_sobre h1{
+	color: #FFDEAD;
+	font-family: cursive;
+}
+
+#corpo_sobre p{
+	color: #FFF8DC;
+	font-family: arial;
+	padding: 20px 50px;
+}
+
+#corpo_sobre li{
+	color: #FFF8DC;
+	font-family: arial;
+	padding: 2px 50px;
+}
+
+#corpo_sobre img{
+	padding: 15px 30px;
+}
+
+#sobre_mim{
+	padding-top: 10px;
+	width: 900px;
+}
+
+#curiosidades{
+	padding-top: 5px;
+}
+
+#interesses{
+	padding-top: 30px;
+}
+/*--------------------------------------------------*/
+/*------------- Partes do Rodapé -------------------*/
+#menu2{
+	padding: 10px;
+	font-size: 15px;
+	font-weight: bold;
+}
+
+#menu2 a{
+	text-decoration: none;
+	color: black;
+	padding: 5px;
+}
+
+#menu2 a:hover{
+	color: #8B4513;
+}
+
+#contatos2 {
+	padding: 0px 0px 5px 0px;
+}
+
+#contatos2 a{
+	padding: 5px;
+}
+
+/*--------------------------------------------------*/
+/*------------------- Classes ----------------------*/ 
+.container{
+	margin: auto;
+	position: relative;
+	overflow: hidden;
+}
+
+.corpo{
+	background-image: url('lamps.jpg');
+	height: 800px;
+}
+
+.tela{
+	background-color: rgba(0,0,0,0.4);
+	height: 800px;
+}
+
+.form-control{
+	transition-duration: 300ms;
+	background-color: #FFEBCD;
+	color: black;
+	border-width: 2px;
+	border-color: #8B4513;
+}
+
+.form-control:focus {
+	transition-duration: 300ms;
+	border-color: #FF8C00;
+	outline: 0;
+	box-shadow: none;
+}
